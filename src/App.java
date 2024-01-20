@@ -12,7 +12,7 @@ public class App {
         f.setVisible(true);
     }
     public static void addComponents(JFrame f) {
-        Game g = new Game(18);
+        Game g = new Game(1);
         SideScreen ss = g.getSideScreen();
         f.add(g);
         f.add(ss, BorderLayout.EAST);
