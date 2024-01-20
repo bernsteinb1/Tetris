@@ -11,3 +11,9 @@
 ### How I hope to use this project:
 - Development of a Tetris playing computer using reinforcement learning
 - Additional modifications to create my own spin on the classic game
+
+### To implement:
+- Dynamic High Score
+- Ability to play multiple games without restarting applicaiton.
+
+![image](https://github.com/bernsteinb1/Tetris/assets/122480409/42bc4bc6-5aef-408c-8b95-d68157473f9a)
