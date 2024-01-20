@@ -3,10 +3,11 @@
 
 ## Inspired by Tetris released for the NES, made for enrichment.
 
-### Still need to implement:
-- Menu
-- Modern Tetris
-- Scoreboard
-- Game over screen
+### What I learned:
+- Developing GUI using Java Swing
+- Style Constants
+- Use of arrays in more than three dimensions
 
-### Please let me know if you find any other bugs.
+### How I hope to use this project:
+- Development of a Tetris playing computer using reinforcement learning
+- Additional modifications to create my own spin on the classic game

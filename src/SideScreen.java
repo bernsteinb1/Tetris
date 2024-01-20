@@ -1,6 +1,7 @@
 import javax.swing.*;
 import java.awt.*;
 import java.io.File;
+import java.io.InputStream;
 
 public class SideScreen extends JPanel {
     ScoreDisplay sd;
@@ -8,9 +9,11 @@ public class SideScreen extends JPanel {
     Next next;
     private static final Font FONT;
     static {
+        InputStream kongtext = SideScreen.class.getClassLoader().getResourceAsStream("kongtext.ttf");
         try {
-            FONT = Font.createFont(Font.TRUETYPE_FONT, new File("kongtext.ttf"));
+            FONT = Font.createFont(Font.TRUETYPE_FONT, kongtext);
         } catch (Exception e) {
+            e.printStackTrace();
             throw new RuntimeException("Couldn't find font file");
         }
     }
