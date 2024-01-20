@@ -3,7 +3,8 @@
 
 ## Inspired by Tetris released for the NES, made for enrichment.
 
-## Usage:
+## Project Details:
+### Usage:
 - Pull code from GitHub
 - Run using IDE run command or navigating to src directory in a terminal and running ```javac App.java``` then ```java App```
 
